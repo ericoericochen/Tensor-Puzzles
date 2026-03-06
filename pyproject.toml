@@ -1,0 +1,18 @@
+[project]
+name = "tensor-puzzles"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chalk-diagrams",
+    "hypothesis>=6.151.9",
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "pytest>=9.0.2",
+    "torchtyping>=0.1.5",
+]
+
+[tool.uv.sources]
+chalk-diagrams = { git = "https://github.com/danoneata/chalk", rev = "srush-patch-1" }
